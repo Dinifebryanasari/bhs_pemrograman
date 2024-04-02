@@ -28,3 +28,5 @@ Perintah ini digunakan untuk mengirimkan (mendorong) commit-commit dari reposito
 - git add.
 - git commit -m "pesannya"
 - git push
+
+mksh
