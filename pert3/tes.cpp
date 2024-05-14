@@ -1,7 +1,7 @@
-#include<iostream>
-#include<conio.h>
+#include <iostream>
 using namespace std;
 
-int main(){
-	cout << "Hello World" << endl;
+int main (){
+    cout << "Hello";
+    return 0;
 }
