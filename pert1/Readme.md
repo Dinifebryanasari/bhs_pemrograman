@@ -34,3 +34,11 @@ Contoh paradigma deklaratif termasuk pemrograman fungsional dan pemrograman logi
 
 Paradigma ini menggunakan aturan atau kebijakan sebagai dasar untuk mengambil keputusan dalam program. Program berisi aturan-aturan yang menyatakan apa yang harus dilakukan dalam situasi tertentu.
 Sistem berbasis aturan seperti CLIPS dan JESS digunakan dalam pemrograman berbasis aturan.
+
+
+
+
+
+
+
+hihhu.
