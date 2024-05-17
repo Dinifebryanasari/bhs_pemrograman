@@ -7,3 +7,5 @@ Lalu, apa perbedaan antara tipe data numerik dan tipe data string?
 Perbedaannya terletak pada fungsi dan cara mengoperasikannya. Misalkan kita ingin menambahkan dua buah variabel bertipe data numerik, yang kita dapatkan adalah hasil penjumlahannya. Berbeda jika kita menambahkan dua buah variabel bertipe data string teks, yang kita dapatkan adalah hasil penggabungan keduanya.
 
 Tipe Data Boolean Tipe data boolean adalah tipe data yang paling simpel dan mudah. Tipe data boolean hanya menyimpan dua buah nilai, yaitu; True dan False. Nilai True untuk pernyataan bernilai benar, dan False untuk merepresentasikan pernyataan yang bernilai salah. Penulisan True dan False di huruf pertama harus menggunakan huruf besar dan biasanya tipe data ini digunakan ketika melakukan pengecekan oleh suatu kondisi yang menggunakan fungsi IF.
+
+lnjut.
