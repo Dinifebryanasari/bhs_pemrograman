@@ -1,0 +1,13 @@
+@startuml
+autonumber 
+actor User
+participant "Menu" as M
+participant "Pilih Menu" as pil
+participant "Aku" as A
+participant "Dia" as D
+participant "Quantity" as qty
+participant "Total" as tot
+
+user --> M; Tampilkan Menu Utama 
+M --> pil
+@enduml

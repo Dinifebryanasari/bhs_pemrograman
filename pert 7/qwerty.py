@@ -1,5 +1,4 @@
 from dash import Dash, dcc, html, Input, Output 
-!pip install Dash
 import plotly.expres as px
 import numpy as np 
 fig = px.line(
