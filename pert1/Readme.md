@@ -1,44 +1,20 @@
-## Apa itu Bahasa Pemrograman ?
-_Bahasa pemrograman adalah seperangkat aturan dan sintaks yang digunakan untuk menulis instruksi atau kode yang dapat dipahami oleh komputer. Tujuan utama dari bahasa pemrograman adalah untuk menginstruksikan komputer agar melakukan tugas tertentu atau mengeksekusi program-program yang telah ditulis._
+## MATERI BAHASA PEMROGRAMAN
+*Bahasa pemrograman adalah kumpulan instruksi dasar atau aturan untuk memerintah komputer, memungkinkan programmer membuat perangkat lunak, aplikasi web, permainan, dan lainnya.*
 
-## Paradigma Pemrograman
+## JENIS BAHASA PEMROGRAMAN:
+1. **Tingkat Tinggi:** Mudah dipahami manusia, independen dari perangkat keras. Contoh: Python, Java, C++.
+2. **Tingkat Rendah:** Dekat dengan bahasa mesin, tergantung perangkat keras. Contoh: Assembly.
+3. **Interpretatif:** Dieksekusi baris per baris oleh interpreter. Contoh: Python, JavaScript.
+4. **Kompilatif:** Dikompilasi menjadi kode mesin sebelum dieksekusi. Contoh: C, C++, Go.
+5. **Fungsional:** Fokus pada fungsi sebagai unit utama pemrograman. Contoh: Haskell, Scala.
+6. **Berorientasi Objek:** Mengorganisasi kode dalam objek dengan atribut dan metode. Contoh: Java, C++, Python.
+7. **Skrip:** Dirancang untuk menulis skrip yang menjalankan tugas-tugas tertentu. Contoh: Python, Ruby, Perl.
 
-_"Paradigma pemrograman adalah cara berpikir atau pendekatan dalam menulis kode program yang mengatur bagaimana program didefinisikan, dirancang, dan diimplementasikan. Setiap paradigma memiliki karakteristik dan aturan tertentu yang memengaruhi bagaimana program akan ditulis dan diorganisir."_
-Berikut adalah beberapa paradigma pemrograman yang umum digunakan:
+## PARADIGMA PEMROGRAMAN
+Kerangka pemikiran untuk memandu proses pemrograman, memengaruhi cara merancang solusi dan mengekspresikan instruksi.
 
-1. Pemrograman Prosedural :
-
-Paradigma ini berfokus pada prosedur atau langkah-langkah yang dilakukan untuk menyelesaikan suatu tugas. Program dibagi menjadi serangkaian prosedur atau fungsi yang menerima input, melakukan operasi, dan menghasilkan output. Contoh bahasa pemrograman prosedural adalah C dan Pascal.
-
-2. Pemrograman Berorientasi Objek (OOP - Object-Oriented Programming) :
-
-Paradigma ini menggunakan konsep objek dan kelas sebagai pusat dari pemrograman. Objek merepresentasikan entitas yang memiliki atribut (data) dan metode (fungsi) yang dapat digunakan untuk berinteraksi dengan objek lain. Konsep-konsep dalam OOP meliputi enkapsulasi, pewarisan, dan polimorfisme.
-Contoh bahasa pemrograman berorientasi objek adalah Java, C++, dan Python.
-
-3. Pemrograman Fungsional :
-
-Paradigma ini berfokus pada fungsi sebagai unit utama dalam pemrograman. Fungsi dianggap sebagai nilai dan dapat digunakan sebagai parameter atau nilai kembali dari fungsi lain. Imutabilitas dan penghindaran efek samping adalah prinsip utama dalam pemrograman fungsional.
-Contoh bahasa pemrograman fungsional adalah Haskell, Lisp, dan Scala.
-
-4. Pemrograman Logika :
-
-Paradigma ini menggunakan aturan logika untuk menentukan alur eksekusi program. Program ditulis dalam bentuk fakta dan aturan, dan kemudian sistem logika menentukan solusi atau jawaban berdasarkan aturan tersebut.
-Prolog adalah salah satu contoh bahasa pemrograman logika.
-
-5. Pemrograman Deklaratif :
-
-Paradigma ini mendeskripsikan apa yang ingin dicapai tanpa harus menentukan langkah-langkah secara spesifik. Program mendefinisikan hubungan antara input dan output tanpa mengharuskan programmer untuk mengontrol alur eksekusi secara detail.
-Contoh paradigma deklaratif termasuk pemrograman fungsional dan pemrograman logika.
-
-6. Pemrograman Berbasis Aturan (Rule-Based Programming) :
-
-Paradigma ini menggunakan aturan atau kebijakan sebagai dasar untuk mengambil keputusan dalam program. Program berisi aturan-aturan yang menyatakan apa yang harus dilakukan dalam situasi tertentu.
-Sistem berbasis aturan seperti CLIPS dan JESS digunakan dalam pemrograman berbasis aturan.
-
-
-
-
-
-
-
-hihhu.
+## JENIS PARADIGMA PEMROGRAMAN
+1. **Imperatif (Prosedural):** Fokus pada urutan langkah-langkah. Contoh: C.
+2. **Fungsional:** Fokus pada fungsi, menghindari perubahan keadaan dan efek samping. Contoh: Haskell, Scala.
+3. **Berorientasi Objek:** Pemodelan dunia nyata dengan objek yang memiliki atribut dan metode. Contoh: Java, Python.
+4. **Deklaratif:** Mendeskripsikan apa yang harus dicapai tanpa menentukan langkah-langkah spesifik. Contoh: SQL.
