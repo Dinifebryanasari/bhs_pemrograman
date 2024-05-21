@@ -1,0 +1,21 @@
+@startuml
+
+start
+
+:Menu Operasi Aritmatika;
+:Masukkan Angka Pertama;
+:Masukkan Angka Kedua;
+if (Pilihan == Penambahan) then (ya)
+  :Hasil Penambahan;
+else if (Pilihan == Pengurangan) then (ya)
+  :Hasil Pengurangan;
+else if (Pilihan == Perkalian) then (ya)
+  :Hasil Perkalian;
+else if (Pilihan == Pembagian) then (ya)
+  :Hasil Pembagian;
+else (tidak)
+  :Pilihan tidak valid;
+endif
+stop
+
+@enduml
