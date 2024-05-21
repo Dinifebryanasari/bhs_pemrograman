@@ -1,20 +1,23 @@
 ## MATERI BAHASA PEMROGRAMAN
 *Bahasa pemrograman adalah kumpulan instruksi dasar atau aturan untuk memerintah komputer, memungkinkan programmer membuat perangkat lunak, aplikasi web, permainan, dan lainnya.*
 
-## JENIS BAHASA PEMROGRAMAN:
-1. **Tingkat Tinggi:** Mudah dipahami manusia, independen dari perangkat keras. Contoh: Python, Java, C++.
-2. **Tingkat Rendah:** Dekat dengan bahasa mesin, tergantung perangkat keras. Contoh: Assembly.
-3. **Interpretatif:** Dieksekusi baris per baris oleh interpreter. Contoh: Python, JavaScript.
-4. **Kompilatif:** Dikompilasi menjadi kode mesin sebelum dieksekusi. Contoh: C, C++, Go.
-5. **Fungsional:** Fokus pada fungsi sebagai unit utama pemrograman. Contoh: Haskell, Scala.
-6. **Berorientasi Objek:** Mengorganisasi kode dalam objek dengan atribut dan metode. Contoh: Java, C++, Python.
-7. **Skrip:** Dirancang untuk menulis skrip yang menjalankan tugas-tugas tertentu. Contoh: Python, Ruby, Perl.
+## Bahasa pemrograman memiliki beberapa tingkatan, yaitu:
 
-## PARADIGMA PEMROGRAMAN
-Kerangka pemikiran untuk memandu proses pemrograman, memengaruhi cara merancang solusi dan mengekspresikan instruksi.
+1. **Bahasa Mesin:** Menggunakan kode biner untuk memberikan perintah langsung kepada komputer.
 
-## JENIS PARADIGMA PEMROGRAMAN
-1. **Imperatif (Prosedural):** Fokus pada urutan langkah-langkah. Contoh: C.
-2. **Fungsional:** Fokus pada fungsi, menghindari perubahan keadaan dan efek samping. Contoh: Haskell, Scala.
-3. **Berorientasi Objek:** Pemodelan dunia nyata dengan objek yang memiliki atribut dan metode. Contoh: Java, Python.
-4. **Deklaratif:** Mendeskripsikan apa yang harus dicapai tanpa menentukan langkah-langkah spesifik. Contoh: SQL.
+2. **Bahasa Tingkat Rendah:** Juga dikenal sebagai bahasa rakitan (Assembly), menggunakan kode-kode singkat yang lebih mudah dipahami oleh manusia daripada bahasa mesin, tetapi masih terkait erat dengan instruksi perangkat keras.
+
+3. **Bahasa Tingkat Menengah:** Menggabungkan instruksi dalam bahasa manusia dengan simbol-simbol seperti {, }, ?, <<, >>, &&, ||, dan sebagainya.
+
+4. **Bahasa Tingkat Tinggi:** Menggunakan instruksi yang lebih dekat dengan bahasa manusia, seperti begin, end, if, for, while, and, or, dan sebagainya. Untuk komputer memahami bahasa manusia, diperlukan program Compiler atau Interpreter.
+
+_Paradigma pemrograman adalah gaya, klasifikasi, dan pendekatan dalam penulisan program untuk memecahkan masalah dengan menggunakan bahasa pemrograman yang sesuai._ 
+## Jenis paradigma pemrograman meliputi:
+
+1. **Pemrograman Fungsional:** Paradigma ini menggunakan pemanggilan fungsi di mana setiap bagian program dapat dipahami sebagai fungsi. Contohnya termasuk bahasa seperti LISP dan Haskell.
+
+2. **Pemrograman Prosedural/Iteratif:** Paradigma ini mengacu pada pemanggilan prosedur berdasarkan pemrograman imperatif. Contohnya adalah Pascal dan C, di mana konsep dasarnya adalah memanggil prosedur atau fungsi untuk mengeksekusi tugas tertentu.
+
+3. **Pemrograman Berorientasi Objek:** Paradigma ini didasarkan pada konsep objek yang menggabungkan data (atribut) dan fungsi (metode) dalam kelas-kelas atau objek-objek. Bahasa yang menerapkan paradigma ini termasuk C++, Java, dan PHP.
+
+4. **Pemrograman Deklaratif:** Paradigma ini menjabarkan fakta-fakta atau aturan dari representasi masalah atau studi kasusnya. Sebagai contoh, bahasa Prolog menggunakan pendekatan deklaratif untuk menyatakan aturan atau fakta dalam bentuk logika.
