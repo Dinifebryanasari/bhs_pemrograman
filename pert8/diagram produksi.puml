@@ -1,0 +1,81 @@
+@startuml
+start
+
+:Identifying Business Goal;
+    :Tujuan Utama;
+    :Membangun bisnis home industri produksi sendal yang sukses dan berkelanjutan;
+    :Tujuan Spesifik;
+    :Meningkatkan brand awareness;
+    :Mencapai target penjualan dan profitabilitas;
+    :Membangun tim produksi yang terampil dan profesional;
+    :Menciptakan produk sendal yang inovatif dan berkualitas tinggi;
+    :Menjalankan bisnis secara etis dan bertanggung jawab terhadap lingkungan;
+
+:Assessing Situation;
+    :Analisis Pasar;
+    :Permintaan;
+    :Memahami tren pasar sendal rumah, preferensi konsumen, dan potensi pertumbuhan;
+    :Kompetitor;
+    :Mengidentifikasi kompetitor utama, strategi pemasaran mereka, dan keunggulan kompetitif mereka;
+    :Harga;
+    :Menentukan harga jual yang kompetitif dan menguntungkan;
+
+    :Analisis Internal;
+    :Sumber Daya;
+    :Mengevaluasi sumber daya yang tersedia;
+    :Keahlian;
+    :Menilai keahlian dan pengalaman tim produksi;
+    :Keunggulan Kompetitif;
+    :Mengidentifikasi keunggulan kompetitif seperti desain unik, kualitas bahan, atau layanan pelanggan yang unggul;
+
+    :Tantangan;
+    :Persaingan;
+    :Persaingan dari produsen sendal skala besar dan home industri lainnya;
+    :Keterbatasan Modal;
+    :Keterbatasan modal awal;
+    :Keterampilan Tenaga Kerja;
+    :Keterbatasan tenaga kerja terampil;
+    :Fluktuasi Harga Bahan Baku;
+    :Fluktuasi harga bahan baku yang dapat mempengaruhi profitabilitas;
+
+:Producing Project Plan;
+    :Strategi Pemasaran;
+    :Target Pasar;
+    :Menentukan target pasar yang spesifik;
+    :Saluran Distribusi;
+    :Memilih saluran distribusi yang efektif;
+    :Promosi;
+    :Mengembangkan strategi promosi yang efektif;
+
+    :Strategi Produksi;
+    :Pemilihan Bahan Baku;
+    :Memilih bahan baku berkualitas tinggi dan ramah lingkungan;
+    :Proses Produksi;
+    :Mengoptimalkan proses produksi;
+    :Kontrol Kualitas;
+    :Menerapkan sistem kontrol kualitas yang ketat;
+
+    :Strategi Keuangan;
+    :Perencanaan Anggaran;
+    :Menyusun anggaran yang realistis;
+    :Sumber Pendanaan;
+    :Mencari sumber pendanaan yang tepat;
+    :Manajemen Keuangan;
+    :Menerapkan sistem manajemen keuangan yang baik;
+
+    :Strategi Pengembangan;
+    :Inovasi Produk;
+    :Mengembangkan desain sendal yang inovatif;
+    :Pengembangan Pasar;
+    :Menjangkau pasar baru;
+    :Peningkatan Efisiensi;
+    :Meningkatkan efisiensi proses produksi dan operasional bisnis;
+
+:Evaluasi dan Tinjau Ulang;
+    :Monitoring dan Evaluasi;
+    :Memantau kinerja bisnis secara berkala;
+    :Penyesuaian Rencana;
+    :Menyesuaikan rencana bisnis berdasarkan hasil evaluasi;
+
+stop
+@enduml
