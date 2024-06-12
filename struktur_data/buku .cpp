@@ -56,7 +56,7 @@ int main() {
             pop(books);
         } else if (command == "3" || command == "peek") {
             peek(books);
-        } else if (command == "4" || command == "isEmpty") {
+        } else if ss(command == "4" || command == "isEmpty") {
             isEmpty(books);
         } else if (command == "5" || command == "size") {
             size(books);
