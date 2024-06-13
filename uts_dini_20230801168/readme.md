@@ -20,4 +20,4 @@ penjelasannya
 
 6. pindahkan Barıs: Pindah ke baris berikutnya setelah mencetak spasi dan Bintang.
 
-4. 
+4.
