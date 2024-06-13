@@ -35,36 +35,39 @@ jawab :
     Keterbatasan Modal: Biaya awal yang diperlukan untuk investasi dalam peralatan dan bahan baku.
     Keterampilan Tenaga Kerja: Terlalu sedikit tenaga kerja profesional dan mahir dalam pembuatan sendal.
     Perubahan Harga Bahan Baku: Fluktuasi harga bahan baku yang dapat mempengaruhi profitabilitas.
-    
 ## 3. Producing Project Plan (Membuat Rencana Proyek)
-    Strategi Pemasaran:
-    Strategi Pemasaran untuk Membuat Rencana Proyek:
+Strategi Pemasaran:
+Strategi Pemasaran untuk Membuat Rencana Proyek:
 
-    Target Pasar: Menentukan target pasar tertentu, seperti keluarga, remaja, atau pelanggan yang peduli.
-    Saluran Distribusi: Pilih saluran distribusi yang efektif, seperti toko online, toko offline, atau pasar konvensional.
-    Promosi: Ciptakan strategi pemasaran yang efektif, seperti program loyalitas pelanggan, iklan online, dan media sosial.
-    Metode Produksi:
+Target Pasar: Menentukan target pasar tertentu, seperti keluarga, remaja, atau pelanggan yang peduli.
+Saluran Distribusi: Pilih saluran distribusi yang efektif, seperti toko online, toko offline, atau pasar konvensional.
+Promosi: Ciptakan strategi pemasaran yang efektif, seperti program loyalitas pelanggan, iklan online, dan media sosial.
+Metode Produksi:
 
-    Pilihan Bahan Baku: Gunakan bahan baku berkualitas tinggi, ramah lingkungan, seperti EVA, karet, atau kain.
-    Proses Produksi: Optimalkan proses produksi untuk meningkatkan efisiensi dan kualitas produk. Kontrol Kualitas: Gunakan sistem kontrol kualitas yang ketat untuk memastikan produk berkualitas tinggi. 
+Pilihan Bahan Baku: Gunakan bahan baku berkualitas tinggi, ramah lingkungan, seperti EVA, karet, atau kain.
+Proses Produksi: Optimalkan proses produksi untuk meningkatkan efisiensi dan kualitas produk. Kontrol Kualitas: Gunakan sistem kontrol kualitas yang ketat untuk memastikan produk berkualitas tinggi. 
 
-    Strategi Investasi:
+Strategi Investasi:
 
-    Perencanaan Anggaran: Membuat anggaran yang masuk akal untuk biaya produksi, pemasaran, dan operasional.
-    Sumber Danaan: Cari sumber dana yang tepat, seperti pinjaman bank, investasi, atau dana pribadi.
-    Manajemen Keuangan: Gunakan sistem pengelolaan keuangan yang efektif untuk mengawasi pengeluaran dan memaksimalkan profitabilitas.
+Perencanaan Anggaran: Membuat anggaran yang masuk akal untuk biaya produksi, pemasaran, dan operasional.
+Sumber Danaan: Cari sumber dana yang tepat, seperti pinjaman bank, investasi, atau dana pribadi.
+Manajemen Keuangan: Gunakan sistem pengelolaan keuangan yang efektif untuk mengawasi pengeluaran dan memaksimalkan profitabilitas.
 
-    Metode Pengembangan:
+Metode Pengembangan:
 
-    Inovasi Produk: Membuat sendal yang menarik dan inovatif untuk memenuhi permintaan pasar.
-    Pengembangan Pasar: Meningkatkan distribusi dan mengeksplorasi pasar baru.
-    Peningkatan Efisiensi: Meningkatkan efisiensi dalam proses bisnis dan produksi.
-    Evaluasi dan Tinjau Ulang: Monitoring dan Evaluasi: Memeriksa dan mengaktifkan kinerja perusahaan secara rutin.
+Inovasi Produk: Membuat sendal yang menarik dan inovatif untuk memenuhi permintaan pasar.
+Pengembangan Pasar: Meningkatkan distribusi dan mengeksplorasi pasar baru.
+Peningkatan Efisiensi: Meningkatkan efisiensi dalam proses bisnis dan produksi.
+Evaluasi dan Tinjau Ulang: Monitoring dan Evaluasi: Memeriksa dan mengaktifkan kinerja perusahaan secara rutin.
 
-    Penyesuaian Rencana: Mengubah rencana bisnis berdasarkan evaluasi dan perubahan pasar.
+Penyesuaian Rencana: Mengubah rencana bisnis berdasarkan evaluasi dan perubahan pasar.
+
+
+
+
+
 
 
 2. DARI BISNIS UNDERSTANDING BUATLAH ALUR DIAGRAMNYA
-
 
 3. SETELAH ITU BUATLAH PROGRAMNYA

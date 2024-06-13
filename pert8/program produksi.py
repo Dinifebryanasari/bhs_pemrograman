@@ -87,3 +87,17 @@ class Business:
         self.inventory.display_inventory()
         self.sales.display_sales()
         self.finance.display_financial_status()
+
+# Example usage:
+business = Business(initial_capital=10000)
+
+# Adding products to inventory
+business.add_product("Sandal Model A", cost_price=50, selling_price=80, quantity=100)
+business.add_product("Sandal Model B", cost_price=60, selling_price=90, quantity=150)
+
+# Selling products
+business.sell_product("Sandal Model A", 10)
+business.sell_product("Sandal Model B", 5)
+
+# Displaying business status
+business.display_status()
