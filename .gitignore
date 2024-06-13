@@ -1,4 +1,12 @@
-mariadb/
-postgres/
-mongo/
-redis/
+# Ignore all files and directories in mariadb directory
+pert9/db/mariadb/*
+
+# Ignore all files and directories in postgres directory
+pert9/db/postgres/*
+
+# Ignore all files and directories in mongo directory
+pert9/db/mongo/*
+
+# Ignore all files and directories in redis directory
+pert9/db/redis/*
+
