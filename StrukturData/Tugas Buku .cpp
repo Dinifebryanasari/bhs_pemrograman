@@ -4,32 +4,36 @@
 
 using namespace std;
 
+// Fungsi untuk menambahkan buku ke tumpukan
 void push(stack<string>& books) {
     string book;
     cout << "Masukkan judul buku yang akan ditambahkan: ";
     cin.ignore();  // Membersihkan buffer input
-    getline(cin, book);
-    books.push(book);
+    getline(cin, book);  // Membaca judul buku
+    books.push(book);  // Menambahkan buku ke tumpukan
     cout << "Buku \"" << book << "\" telah ditambahkan ke tumpukan." << endl;
 }
 
+// Fungsi untuk menghapus buku teratas dari tumpukan
 void pop(stack<string>& books) {
-    if (books.empty()) {
+    if (books.empty()) {  // Memeriksa apakah tumpukan kosong
         cout << "Tumpukan buku kosong. Tidak ada buku yang bisa dihapus." << endl;
     } else {
         cout << "Buku \"" << books.top() << "\" telah dihapus dari tumpukan." << endl;
-        books.pop();
+        books.pop();  // Menghapus buku teratas dari tumpukan
     }
 }
 
+// Fungsi untuk melihat buku teratas di tumpukan tanpa menghapusnya
 void peek(const stack<string>& books) {
-    if (books.empty()) {
+    if (books.empty()) {  // Memeriksa apakah tumpukan kosong
         cout << "Tumpukan buku kosong." << endl;
     } else {
         cout << "Buku teratas di tumpukan: \"" << books.top() << "\"" << endl;
     }
 }
 
+// Fungsi untuk memeriksa apakah tumpukan kosong
 void isEmpty(const stack<string>& books) {
     if (books.empty()) {
         cout << "Tumpukan buku kosong." << endl;
@@ -38,14 +42,16 @@ void isEmpty(const stack<string>& books) {
     }
 }
 
+// Fungsi untuk mengetahui jumlah buku di tumpukan
 void size(const stack<string>& books) {
     cout << "Jumlah buku di tumpukan: " << books.size() << endl;
 }
 
 int main() {
-    stack<string> books;
+    stack<string> books;  // Deklarasi tumpukan buku
     string command;
     
+    // Loop untuk menjalankan program
     while (true) {
         cout << "\nPilih operasi (1: push, 2: pop, 3: peek, 4: isEmpty, 5: size): ";
         cin >> command;

@@ -1,39 +1,155 @@
-### Deskripsi Program
+Berikut adalah penjelasan lengkap yang telah dirapikan dan siap untuk diunggah ke GitHub melalui VSCode:
 
-#### Header dan Namespace:
-Program dimulai dengan memasukkan header yang diperlukan (`iostream`, `stack`, `string`) dan menggunakan namespace `std`.
+---
 
-#### Fungsi `push(stack<string>& books)`
-- Meminta pengguna untuk memasukkan judul buku yang ingin ditambahkan ke dalam tumpukan.
-- Menggunakan `cin.ignore()` untuk membersihkan buffer input agar tidak ada masalah dengan newline (`\n`) yang tertinggal setelah operasi `cin`.
-- Menggunakan `getline(cin, book)` untuk membaca seluruh baris input pengguna dan menyimpannya ke dalam variabel `book`.
-- Memasukkan judul buku ke dalam tumpukan (`books.push(book)`).
-- Menampilkan pesan konfirmasi kepada pengguna bahwa buku telah ditambahkan.
+# Program Stack Buku dengan C++
 
-#### Fungsi `pop(stack<string>& books)`
-- Menghapus buku teratas dari tumpukan jika tumpukan tidak kosong.
-- Memeriksa apakah tumpukan kosong dengan `books.empty()`. Jika kosong, menampilkan pesan kesalahan.
-- Jika tumpukan tidak kosong, mengambil dan menampilkan judul buku teratas dengan `books.top()`.
-- Menghapus buku tersebut dari tumpukan menggunakan `books.pop()`.
+Program ini adalah implementasi sederhana dari tumpukan (stack) buku menggunakan C++. Program ini menyediakan beberapa operasi dasar seperti menambahkan buku, menghapus buku teratas, melihat buku teratas, memeriksa apakah tumpukan kosong, dan mengetahui jumlah buku di tumpukan.
 
-#### Fungsi `peek(const stack<string>& books)`
-- Melihat judul buku teratas di dalam tumpukan tanpa menghapusnya.
-- Jika tumpukan kosong, menampilkan pesan "Tumpukan buku kosong".
-- Jika tidak kosong, menampilkan judul buku teratas dengan `books.top()`.
+## Header Files
 
-#### Fungsi `isEmpty(const stack<string>& books)`
-- Memeriksa apakah tumpukan kosong.
-- Menampilkan "Tumpukan buku kosong" jika tumpukan kosong.
-- Menampilkan "Tumpukan buku tidak kosong" jika tumpukan tidak kosong.
+```cpp
+#include <iostream>     // Header ini diperlukan untuk menggunakan objek input dan output standar seperti cin dan cout.
+#include <stack>        // Header ini digunakan untuk menggunakan kelas stack dari pustaka standar C++.
+#include <string>       // Header ini digunakan untuk manipulasi string di C++.
+```
 
-#### Fungsi `size(const stack<string>& books)`
-- Mengembalikan jumlah buku yang ada di dalam tumpukan dengan `books.size()`.
-- Menampilkan jumlah buku tersebut kepada pengguna.
+- **`#include <iostream>`**: Digunakan untuk operasi input dan output standar. Memungkinkan penggunaan `cin` untuk input dan `cout` untuk output.
+- **`#include <stack>`**: Memungkinkan penggunaan kelas `stack` dari pustaka standar C++. `stack` adalah struktur data LIFO (Last In First Out).
+- **`#include <string>`**: Menyediakan kelas `string` untuk manipulasi teks.
 
-#### Fungsi `main()`
-- Tempat dimana program dimulai.
-- Mendeklarasikan objek `stack<string>` dengan nama `books` untuk menyimpan judul-judul buku.
-- Menggunakan loop `while (true)` untuk terus menunggu input dari pengguna.
-- Meminta pengguna untuk memilih operasi yang ingin dilakukan (`push`, `pop`, `peek`, `isEmpty`, `size`) dengan memasukkan angka atau kata kunci yang sesuai.
-- Setiap operasi diproses sesuai dengan pilihan pengguna dengan memanggil fungsi yang sesuai (`push()`, `pop()`, `peek()`, `isEmpty()`, `size()`).
-- Memberikan pesan kesalahan jika pengguna memasukkan perintah yang tidak dikenal, dan meminta pengguna untuk mencoba lagi.
+## Namespace
+
+```cpp
+using namespace std;    // Menggunakan namespace standar C++ agar tidak perlu menulis std:: sebelum setiap penggunaan objek dari standar library.
+```
+
+- **`using namespace std;`**: Mempermudah penggunaan elemen dari pustaka standar C++ tanpa perlu menambahkan `std::` di depan setiap elemen.
+
+## Fungsi `push`
+
+```cpp
+void push(stack<string>& books) {
+    cin.ignore();               // membersihkan buffer input
+    string book;
+    getline(cin, book);         // membaca satu baris input yang berisi judul buku
+    books.push(book);           // menambahkan buku ke tumpukan
+}
+```
+
+- **`void push(stack<string>& books)`**: Fungsi untuk menambahkan buku ke tumpukan.
+  - **`cin.ignore()`**: Membersihkan buffer input untuk memastikan tidak ada karakter tersisa yang bisa mengganggu input berikutnya.
+  - **`getline(cin, book)`**: Membaca satu baris input dari pengguna yang berisi judul buku dan menyimpannya dalam variabel `book`.
+  - **`books.push(book)`**: Menambahkan judul buku ke tumpukan `books`.
+
+## Fungsi `pop`
+
+```cpp
+void pop(stack<string>& books) {
+    if (!books.empty()) {       // memeriksa apakah tumpukan kosong
+        cout << "Removing: " << books.top() << endl; // mengakses buku teratas tanpa menghapusnya
+        books.pop();            // menghapus buku teratas dari tumpukan
+    } else {
+        cout << "The stack is empty." << endl;
+    }
+}
+```
+
+- **`void pop(stack<string>& books)`**: Fungsi untuk menghapus buku teratas dari tumpukan.
+  - **`if (!books.empty())`**: Memeriksa apakah tumpukan tidak kosong.
+  - **`cout << "Removing: " << books.top() << endl;`**: Menampilkan buku teratas yang akan dihapus.
+  - **`books.pop()`**: Menghapus buku teratas dari tumpukan.
+  - **`else` block**: Menampilkan pesan bahwa tumpukan kosong jika tidak ada buku di tumpukan.
+
+## Fungsi `peek`
+
+```cpp
+void peek(const stack<string>& books) {
+    if (!books.empty()) {       // memeriksa apakah tumpukan kosong
+        cout << "Top book: " << books.top() << endl; // mengakses buku teratas tanpa menghapusnya
+    } else {
+        cout << "The stack is empty." << endl;
+    }
+}
+```
+
+- **`void peek(const stack<string>& books)`**: Fungsi untuk melihat buku teratas di tumpukan tanpa menghapusnya.
+  - **`if (!books.empty())`**: Memeriksa apakah tumpukan tidak kosong.
+  - **`cout << "Top book: " << books.top() << endl;`**: Menampilkan buku teratas.
+  - **`else` block**: Menampilkan pesan bahwa tumpukan kosong jika tidak ada buku di tumpukan.
+
+## Fungsi `isEmpty`
+
+```cpp
+void isEmpty(const stack<string>& books) {
+    if (books.empty()) {        // memeriksa apakah tumpukan kosong
+        cout << "The stack is empty." << endl;
+    } else {
+        cout << "The stack is not empty." << endl;
+    }
+}
+```
+
+- **`void isEmpty(const stack<string>& books)`**: Fungsi untuk memeriksa apakah tumpukan kosong.
+  - **`if (books.empty())`**: Memeriksa apakah tumpukan kosong dan menampilkan pesan yang sesuai.
+  - **`else` block**: Menampilkan pesan bahwa tumpukan tidak kosong jika terdapat buku di tumpukan.
+
+## Fungsi `size`
+
+```cpp
+void size(const stack<string>& books) {
+    cout << "Stack size: " << books.size() << endl; // mengembalikan jumlah elemen di tumpukan
+}
+```
+
+- **`void size(const stack<string>& books)`**: Fungsi untuk mengetahui jumlah buku di tumpukan.
+  - **`cout << "Stack size: " << books.size() << endl;`**: Menampilkan jumlah buku di tumpukan.
+
+## Fungsi `main`
+
+```cpp
+int main() {
+    stack<string> books;        // Menginisialisasi sebuah tumpukan buku
+    int choice;
+
+    do {
+        cout << "\nMenu:\n";
+        cout << "1. Push a book\n";
+        cout << "2. Pop a book\n";
+        cout << "3. Peek at the top book\n";
+        cout << "4. Check if stack is empty\n";
+        cout << "5. Get stack size\n";
+        cout << "6. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1: push(books); break;
+            case 2: pop(books); break;
+            case 3: peek(books); break;
+            case 4: isEmpty(books); break;
+            case 5: size(books); break;
+            case 6: cout << "Exiting..." << endl; break;
+            default: cout << "Invalid choice. Please try again." << endl; break;
+        }
+    } while (choice != 6);
+
+    return 0;
+}
+```
+
+- **`int main()`**: Fungsi utama yang menjalankan program.
+  - **`stack<string> books;`**: Menginisialisasi sebuah tumpukan untuk menyimpan buku.
+  - **`int choice;`**: Variabel untuk menyimpan pilihan pengguna.
+  - **`do-while` loop**: Menyediakan menu interaktif yang terus berjalan hingga pengguna memilih untuk keluar.
+    - **`cout << ...`**: Menampilkan menu pilihan kepada pengguna.
+    - **`cin >> choice;`**: Menerima input pilihan dari pengguna.
+    - **`switch (choice)`**: Memanggil fungsi yang sesuai berdasarkan pilihan pengguna:
+      - **case 1**: Memanggil fungsi `push` untuk menambahkan buku.
+      - **case 2**: Memanggil fungsi `pop` untuk menghapus buku teratas.
+      - **case 3**: Memanggil fungsi `peek` untuk melihat buku teratas.
+      - **case 4**: Memanggil fungsi `isEmpty` untuk memeriksa apakah tumpukan kosong.
+      - **case 5**: Memanggil fungsi `size` untuk mengetahui jumlah buku di tumpukan.
+      - **case 6**: Menampilkan pesan keluar dan mengakhiri loop.
+      - **default**: Menampilkan pesan jika pilihan tidak valid.
+  - **`while (choice != 6);`**: Kondisi untuk terus menjalankan loop selama pilihan bukan 6.
