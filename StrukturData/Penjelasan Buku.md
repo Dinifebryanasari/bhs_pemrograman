@@ -37,5 +37,3 @@ Program dimulai dengan memasukkan header yang diperlukan (`iostream`, `stack`, `
 - Meminta pengguna untuk memilih operasi yang ingin dilakukan (`push`, `pop`, `peek`, `isEmpty`, `size`) dengan memasukkan angka atau kata kunci yang sesuai.
 - Setiap operasi diproses sesuai dengan pilihan pengguna dengan memanggil fungsi yang sesuai (`push()`, `pop()`, `peek()`, `isEmpty()`, `size()`).
 - Memberikan pesan kesalahan jika pengguna memasukkan perintah yang tidak dikenal, dan meminta pengguna untuk mencoba lagi.
-
-selesai
