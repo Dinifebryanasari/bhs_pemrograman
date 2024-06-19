@@ -1,6 +1,6 @@
-#include <iostream>
-#include <stack>
-#include <string>
+#include <iostream>  // Untuk input dan output
+#include <stack>     // Untuk menggunakan stack
+#include <string>    // Untuk manipulasi string
 
 using namespace std;
 
@@ -56,6 +56,7 @@ int main() {
         cout << "\nPilih operasi (1: push, 2: pop, 3: peek, 4: isEmpty, 5: size): ";
         cin >> command;
 
+        // Menjalankan fungsi yang sesuai berdasarkan input pengguna
         if (command == "1" || command == "push") {
             push(books);
         } else if (command == "2" || command == "pop") {
