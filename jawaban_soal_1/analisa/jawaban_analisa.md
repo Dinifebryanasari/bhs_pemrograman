@@ -1,1 +1,0 @@
-## Function adalah blok kode yang didefinisikan untuk melakukan tugas tertentu. Fungsi dapat dipanggil dari bagian lain dalam program untuk menghindari duplikasi kode. Fungsi memudahkan organisasi dan pemeliharaan kode.
