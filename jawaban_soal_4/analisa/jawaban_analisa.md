@@ -1,0 +1,1 @@
+## Python dapat berkomunikasi dengan database menggunakan berbagai library seperti sqlite3, mysql-connector-python, dan SQLAlchemy. Python menyediakan API yang memungkinkan untuk membuat koneksi ke database, menjalankan query, dan mengelola data.k
