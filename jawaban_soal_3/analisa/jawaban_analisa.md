@@ -1,1 +1,0 @@
-## Global Unique Identifier (GUL) atau UUID (Universally Unique Identifier) adalah identifikasi unik yang digunakan untuk membedakan entitas dalam sistem atau basis data. UUID sering digunakan untuk mengidentifikasi objek secara unik di seluruh sistem.
